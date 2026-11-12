@@ -33,11 +33,9 @@ body {
 .logo {
     width: 85px;
     height: 85px;
-
     background-color: black;
     border: 3px solid #c21836;
     border-radius: 50%;
-
     margin: 0 auto 15px;
 
     display: flex;
@@ -57,14 +55,13 @@ body {
     letter-spacing: 2px;
 }
 
-/* TÍTULOS E MENSAGENS */
-h1,
-h2 {
+/* TÍTULO */
+h1 {
     font-size: 22px;
     margin-bottom: 8px;
 }
 
-.subtitulo {
+.mensagem {
     font-size: 13px;
     color: #555;
     margin-bottom: 20px;
@@ -95,61 +92,47 @@ input:focus {
     border: 1px solid #c21836;
 }
 
-/* BOTÃO DE LOGIN */
-form button {
+/* BOTÃO */
+button {
     width: 75%;
     padding: 12px;
     margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-
     background-color: #dddddd;
     border: none;
     border-radius: 8px;
-
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
 
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-form button:hover {
+button:hover {
     background-color: #cccccc;
 }
 
 /* CADASTRO */
-.cadastro {
+.login {
     font-size: 12px;
     margin-top: 18px;
 }
 
-.cadastro a {
+.login a {
     color: black;
     font-weight: bold;
 }
 
-/* SEPARADOR */
-.separador {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 22px 0;
-
-    color: #777;
-    font-size: 11px;
-}
-
-.separador::before,
-.separador::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background-color: #dddddd;
-}
-
 /* ACESSO AO CATÁLOGO */
-.botao-catalogo {
+.acesso-catalogo {
+    font-size: 12px;
+    color: #555;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.catalogo {
     display: block;
     width: 75%;
     padding: 12px;
@@ -159,17 +142,11 @@ form button:hover {
     border-radius: 8px;
 
     color: black;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.botao-catalogo:hover {
+.catalogo:hover {
     background-color: #cccccc;
-}
-
-.visitante {
-    font-size: 11px;
-    color: #777;
-    margin-top: 12px;
 }
