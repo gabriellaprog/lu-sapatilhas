@@ -1,53 +1,60 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Login - Lu Sapatilhas</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="container">
 
+        <!-- Logotipo -->
         <div class="logo">
-            <h1>lu</h1>
-            <p>SAPATILHAS</p>
+            lu
+            <span>SAPATILHAS</span>
         </div>
 
-        <h2>Bem-vindo(a)!</h2>
-        <p class="subtitulo">Entre na sua conta para continuar.</p>
+        <h1>Bem-vindo(a)!</h1>
+
+        <p class="mensagem">
+            Entre na sua conta para continuar.
+        </p>
 
         <form>
-            <label for="email">E-mail</label>
+
+            <label for="email">E-mail:</label>
             <input type="email" id="email" placeholder="Digite seu e-mail" required>
 
-            <label for="senha">Senha</label>
+            <label for="senha">Senha:</label>
             <input type="password" id="senha" placeholder="Digite sua senha" required>
 
-            <button type="submit">Entrar na minha conta</button>
+            <button type="submit">Entrar</button>
+
         </form>
 
-        <p class="cadastro">
-            Ainda não possui conta?
-            <a href="cadastro.html">Cadastre-se</a>
+        <p class="login">
+            Ainda não possui uma conta?
+            <br>
+            <a href="cadastro.html">Faça seu cadastro aqui</a>
         </p>
 
-        <div class="separador">
-            <span>OU</span>
-        </div>
+        <p class="acesso-catalogo">
+            Deseja apenas conhecer nossos produtos?
+        </p>
 
-        <a href="catalogo.html" class="botao-catalogo">
-            Conhecer nossos produtos
+        <a href="catalogo.html" class="catalogo">
+            Acessar catálogo sem login
         </a>
-
-        <p class="visitante">
-            Acesse nossa coleção sem precisar de cadastro.
-        </p>
 
     </div>
 
 </body>
+
 </html>
